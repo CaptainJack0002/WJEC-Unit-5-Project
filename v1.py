@@ -3,6 +3,10 @@ import hashlib
 import sqlite3
 import subprocess
 
+
+print("TEST")
+
+
 # connect to the database
 conn = sqlite3.connect("login.db")
 c = conn.cursor()
@@ -225,3 +229,7 @@ newUserButton = Button(
 
 # start the main loop
 root.mainloop()
+
+
+
+
